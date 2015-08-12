@@ -10,8 +10,11 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <form action="index.php" method="post" >
+           
+            <p>
+                <input placeholder="E-mail" name="email" type="email" required="true"/>
+            </p>
+           <form/>
     </body>
 </html>
