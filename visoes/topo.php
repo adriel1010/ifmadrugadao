@@ -8,17 +8,17 @@
         <title>IFMadrugadão</title>
     </head>
     <body>
-    <div id="fundo" class="container-fluid" >
-        
-      
-<header>
-  <nav id="topo" class="navbar navbar-default">
+        <!--abre div fundo-->
+        <div id="fundo" class="container-fluid">   
+            <header>
+                <nav id="topo" class="navbar navbar-default">
                 
-   <div class="container-fluid">
-     <div class="navbar-header">
-       <a class="navbar-brand" href="index.php"> <img src="./recursos/img/icones/home2.jpg"> </a>
-     </div>
-   </div>
- </nav>
-</header>
-        <div id="corpo" >
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="index.php"> <img src="./recursos/img/icones/home2.jpg"> </a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!--abre div corpo-->
+            <div id="corpo" >
