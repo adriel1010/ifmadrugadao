@@ -1,3 +1,23 @@
-#topo{
+
+   *{
+    padding: 0px;
+    margin: 0px;
+    }
+    
+body{
+   background: url(../img/fundo/fundo.jpg); 
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+
+nav#topo{
+    
+    margin-top: 1%;
+    background-color: 1A591E;
+    border: 0px;
     
 }
+footer#rodape{
+    color: #ffffff;
+}
+
