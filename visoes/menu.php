@@ -11,7 +11,7 @@
         <!--abre div fundo-->
         <div id="fundo" class="container-fluid">   
             <header>
-                <nav id="topo" class="navbar navbar-default">
+                <nav id="menu" class="navbar navbar-default">
                     <div class="container-fluid">
                         <div class="navbar-header">
                             <a class="navbar-brand" href="index.php"> <img src="./recursos/img/icones/home.png"> </a>
