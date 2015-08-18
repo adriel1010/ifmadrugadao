@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url(../img/fundo/fundo.jpg); 
+    background: url(../img/fundo/fundo.png); 
     background-repeat: no-repeat;  
     background-size: cover;
 }
@@ -21,6 +21,7 @@ footer#rodape{
     bottom:0;
     text-align: center;
 }
+
 h4#paineladm{
     color: #cc3300;
     margin-left: 35%;
@@ -47,8 +48,7 @@ form input[type='submit']{
     height: 30px;
 }
 
-a#arte{
+a#imagens{
     background: none;
     border: 0px;
-    text-align: center;
 }

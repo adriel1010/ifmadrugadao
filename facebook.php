@@ -1,5 +1,9 @@
-<?php require './visoes/menu.php';?>
-<?php include_once './visoes/arte.php';?>
-Este é o facebook
+<?php
+    require './visoes/topo.php';
+    require './visoes/menu.php';
+    require './visoes/arte.php';
+?>
+
+Facebook
 
 <?php require './visoes/rodape.php';?>

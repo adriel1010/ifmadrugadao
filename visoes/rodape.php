@@ -1,5 +1,3 @@
-<!-- fecha corpo-->        
-</div>
 <footer id="rodape" >
 @Corpright Gabriel Felipe & Adriel Dias 2015
 </footer>

@@ -1,5 +1,9 @@
-<?php include_once './visoes/menu.php';?>
-<?php include_once './visoes/arte.php';?>
+<?php
+    require './visoes/topo.php';
+    require './visoes/menu.php';
+    require './visoes/arte.php';
+?>
 
 
-<?php include_once './visoes/rodape.php';?>
+
+<?php require './visoes/rodape.php';?>
