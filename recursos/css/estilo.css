@@ -47,11 +47,8 @@ form input[type='submit']{
     height: 30px;
 }
 
-div#arte{
-    float: right;
-}
-
 a#arte{
     background: none;
     border: 0px;
+    text-align: center;
 }
