@@ -18,10 +18,4 @@ $conexao = mysql_connect('localhost','root','');       // faz a conexão
  echo "location.href='http://localhost/ifmadrugadao/controlador.php';";
  echo "</script>";
     
- 
- 
   ?>
-
-
-
-

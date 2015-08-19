@@ -1,5 +1,11 @@
-<?php require './visoes/menu.php';?>
+<?php
+    require './visoes/topo.php';
+    require './visoes/menu.php';
+    require './visoes/arte.php';
+?>
 
-Este é o whatsapp
+<div id="gplus" class="well well-large">
+    Whatsapp
+</div>
 
 <?php require './visoes/rodape.php';?>

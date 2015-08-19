@@ -4,6 +4,8 @@
     require './visoes/arte.php';
 ?>
 
-Facebook
+<div id="gplus" class="well well-large">
+    Facebook
+</div>
 
 <?php require './visoes/rodape.php';?>

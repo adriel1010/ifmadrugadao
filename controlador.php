@@ -1,6 +1,7 @@
-<?php require './visoes/menu.php';?>
-
-
+<?php
+    require './visoes/topo.php';
+    require './visoes/menu.php';
+?>
 
 <form id="testando"  action="banco/conexao.php" method="post"  >
     
@@ -15,6 +16,5 @@
     <input type="submit" value="Logar"/>
     </p>
    
-     
 </form>
 <?php require './visoes/rodape.php';?>

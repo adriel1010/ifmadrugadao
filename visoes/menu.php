@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-xs-12 col-md-12 col-sm-12">
-        <nav id="menu" class="navbar navbar-default">
+        <nav id="menu" class="navbar navbar-fixed-top navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBarUser">

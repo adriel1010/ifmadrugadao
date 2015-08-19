@@ -1,5 +1,11 @@
-<?php require './visoes/menu.php';?>
+<?php
+    require './visoes/topo.php';
+    require './visoes/menu.php';
+    require './visoes/arte.php';
+?>
 
-Este é o Google Plus
+<div id="gplus" class="well well-large">
+    Google Plus
+</div>
 
 <?php require './visoes/rodape.php';?>
