@@ -1,0 +1,11 @@
+create database ifmadrugadao
+
+use ifmadrugadao
+
+create table login(
+usuario varchar(50),
+senha varchar(50)
+);
+
+insert into login
+values("adm","1234");
