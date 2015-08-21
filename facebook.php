@@ -4,7 +4,7 @@
     require './visoes/arte.php';
 ?>
 
-<div id="gplus" class="well well-large">
+<div id="fundoconteudo" class="well well-large">
     Facebook
 </div>
 

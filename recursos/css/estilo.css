@@ -3,6 +3,16 @@
     margin: 0px;
 }
 
+@font-face {
+    font-family:"Avdira";
+    src:url("Avdira_R.eot?") format("eot"),
+        url("Avdira_R.woff") format("woff"),
+        url("Avdira_R.ttf") format("truetype"),
+        url("Avdira_R.svg#Avdira") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
 body{
     background: url(../img/fundo/fundo.png); 
     background-repeat: no-repeat;  
@@ -19,16 +29,22 @@ nav#menu{
     text-align: justify;
 }
 
-div#conteudo{
-    text-align: justify;
-    border-radius: 10px;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
 footer#rodape{
     color: #ffffff;
     text-align: center;
+}
+
+div#fundoconteudo{
+    background-color: 4CAF50;
+    text-align: justify;
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    filter:alpha(opacity=70);
+    opacity: 0.7;
+    -moz-opacity:0.7;
+    -webkit-opacity:0.7;
 }
 
 h4#paineladm{
