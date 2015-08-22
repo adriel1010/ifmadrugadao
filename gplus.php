@@ -5,7 +5,7 @@
 ?>
 
 <div id="fundoconteudo" class="well well-large">
-    Google Plus
+       Google Plus
 </div>
 
 <?php require './visoes/rodape.php';?>

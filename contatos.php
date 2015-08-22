@@ -5,7 +5,7 @@
 ?>
 
 <div id="fundoconteudo" class="well well-large">
-    Conteudos
+        Contatos
 </div>
 
 <?php require './visoes/rodape.php';?>
