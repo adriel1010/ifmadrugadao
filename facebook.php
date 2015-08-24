@@ -4,8 +4,10 @@
     require './visoes/arte.php';
 ?>
 
-<div id="fundoconteudo" class="well well-large">
+<div id="fundoconteudo" class="well well-small">
+    <div id="conteudo" class="well well-small">
         Facebook
+    </div>
 </div>
 
 <?php require './visoes/rodape.php';?>

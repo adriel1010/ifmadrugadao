@@ -4,8 +4,10 @@
     require './visoes/arte.php';
 ?>
 
-<div id="fundoconteudo" class="well well-large">
-    Whatsapp
+<div id="fundoconteudo" class="well well-small">
+    <div id="conteudo" class="well well-small">
+        Whatsapp
+    </div>
 </div>
 
 <?php require './visoes/rodape.php';?>

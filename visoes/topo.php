@@ -7,6 +7,7 @@
         <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,300,900,100&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <script>
             /*function setTopo(){
                 $(window).scrollTop(0);
