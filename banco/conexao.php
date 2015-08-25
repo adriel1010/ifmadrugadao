@@ -1,5 +1,29 @@
 <?php
-   
+
+
+class Conexao{
+
+function conectar(){
+    // faz a conexao   conexão com o banco ifmadrugadao
+try{
+$pdo = new PDO("mysql:host=localhost;dbname=ifmadrugadao","root","");
+  // se der erro, mostra qual é o erro 
+}  catch (PDOException $e){
+    echo $e->getMessage();
+  
+}
+return $pdo;
+}
+
+}
+
+
+
+
+ /*  
+  * 
+  * conexão sem pdo 
+  * 
 $usuario=$_POST['usuario'];
 $senha=$_POST['senha'];
 
@@ -17,5 +41,5 @@ $conexao = mysql_connect('localhost','root','');       // faz a conexão
  echo "alert('Login ou senha incorretos. Tente novamente.');";
  echo "location.href='http://localhost/ifmadrugadao/controlador.php';";
  echo "</script>";
-    
+    */
   ?>
