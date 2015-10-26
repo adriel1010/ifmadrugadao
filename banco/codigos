@@ -9,3 +9,14 @@ senha varchar(50)
 
 insert into login
 values("adm","1234");
+
+
+
+create table postagem (
+id int AUTO_INCREMENT,
+url varchar(200) not null,
+descricao varchar(300) not null,
+PRIMARY key(id)
+
+
+);

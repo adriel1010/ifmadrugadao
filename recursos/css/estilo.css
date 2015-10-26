@@ -83,6 +83,13 @@ form#login{
     text-align: center;
     font-family: Androgyne Medium;
 }
+form#postagem{
+    background-color: 4CAF50;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: Androgyne Medium;
+}
 
 form input[type='text'], form input[type='password'] {
     width: 100%;
@@ -102,4 +109,9 @@ form input[type='submit'], form input[type='reset']{
 a#imagens{
     background: none;
     border: 0px;
+}
+form#quadropostagem{
+    margin-left: 20%;
+    margin-right: 20%;
+   
 }

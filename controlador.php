@@ -1,6 +1,7 @@
 <?php
     require './visoes/topo.php';
     require './visoes/menu.php';
+    
 ?>
 
 <div class="row">
