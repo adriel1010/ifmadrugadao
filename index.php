@@ -2,12 +2,10 @@
     require './visoes/topo.php';
     require './visoes/menu.php';
     require './visoes/arte.php';
-    include 'banco/cunsultaUrl.php';
-
-   $con= new consultar();
-   $consul=$con->retorna();
-   
-  
+    include 'banco/buscarTodos.php';
+    
+    $buscarTodos = new Buscar();
+    $carregamento = $buscarTodos->buscTodos();
     
     
   function retornarEmbed($url){
@@ -15,9 +13,6 @@
     $urlEmbed = str_replace("&feature=youtu.be", "", $urlEmbed);
    return $urlEmbed; 
 }
-
-
-
 ?>
 
 <div id="fundoconteudo" class="well well-small">
@@ -26,20 +21,23 @@
             
             
         <?php
-        
-        foreach ($consul as $url) {
-            
-        
-                              
-                                echo '</h3>
+         foreach ($carregamento as $valor) {
+         echo '</h3>
                                       <center>
                                             <div class="embed-responsive embed-responsive-16by9">';
-        
-                                echo "<iframe  src='".retornarEmbed($url)."' frameborder='0' allowfullscreen></iframe>";
+                                echo "<center>";
+                                echo "<iframe  src='".retornarEmbed($valor->getUrl())."' frameborder='0' allowfullscreen></iframe>";
+                                echo "</center>";
                                 echo "</div>";
+                                echo "<br /";
+                                echo "<br>".$valor->getDescricao()."</b>";
                                 echo "<br />";
+                                echo "<br />";
+                             
                                 
         }
+        
+        
      ?>
           </form>
      </div>

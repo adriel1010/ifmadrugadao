@@ -35,6 +35,8 @@ foreach ($url as $lista) {
 return $urls;
 
    }
+   
+   /*
     
 function retornadescri(){
     
@@ -42,13 +44,21 @@ $pdoo= new Conexao();
 
 $pdo=$pdoo->conectar();
     
+$descricao = array();
+    
 $buscarPostagem=$pdo->prepare("select * from postagem");
 $buscarPostagem->execute();
-while($descricao = $buscarPostagem->fetch(PDO::FETCH_ASSOC)){
-return  $descricao["descricao"];
-}
+$cont = 0;
 
+$descri = $buscarPostagem->fetchAll(PDO::FETCH_ASSOC);
+foreach ($descri as $lista) {
+   $descricao[$cont] = $lista["descricao"];
+   $cont++;
+}
+return $descricao;
     }
+*/
+   
 }
 
 ?>
