@@ -18,10 +18,11 @@ $postar->execute();
 if($postar->rowCount() >0){
 echo "<script type='text/javascript'>";
 echo "alert('Postagem realizada com sucesso !!!');";
+echo "location.href='http://localhost/ifmadrugadao/index.php';";
 echo "</script>";
 }else{
 echo "<script type='text/javascript'>";
-echo "alert('erro ao realizar postagem. Tente novamente !!!');";
+echo "alert('Erro ao postar Por favor tente novamente !!!');";
 echo "</script>";
 }
 
