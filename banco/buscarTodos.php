@@ -40,16 +40,16 @@ function Buscar(){
        private function populaUsuario($row){
         $adm = new Adm();
         $adm ->setId($row['id']);
+        $adm ->setNome_postagem($row['nome_imagem']);
         $adm ->setUrl($row['url']);
         $adm ->setDescricao($row['descricao']);
+        $adm ->setCategoria($row['categoria']);
         
         
         return $adm;
     }
     
-  
-    
-    
+   
     
 }
 

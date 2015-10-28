@@ -29,7 +29,7 @@ if($buscarusuario->rowCount() >0){
 session_start();
 $_SESSION['login']= true;
 // redireciona 
-header('Location:../painelAdm.php');
+header('Location:../controlePainelAdm.php');
 }else{
 echo "<script type='text/javascript'>";
 echo "alert('Login ou senha incorretos. Tente novamente.');";

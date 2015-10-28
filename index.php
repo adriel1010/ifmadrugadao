@@ -22,7 +22,12 @@
             
         <?php
          foreach ($carregamento as $valor) {
-         echo '</h3>
+             
+             if($valor->getCategoria()== 'video'){
+                 
+                                echo "<br>".$valor->getNome_postagem()."</b>";
+                                echo '<br />';
+                                echo '</h3>
                                       <center>
                                             <div class="embed-responsive embed-responsive-16by9">';
                                 echo "<center>";
@@ -34,12 +39,28 @@
                                 echo "<br />";
                                 echo "<br />";
                              
+             }
+             if($valor->getCategoria()== 'imagem'){
+                 
+                            echo "<br>".$valor->getNome_postagem()."</b>";
+                             echo '<br />';
+                              echo "<center>";
+                            echo " <img src=".retornarEmbed($valor->getUrl()).">";
+                              echo "<br>".$valor->getDescricao()."</b>";
+                              echo "<br />";
+                              echo "</center>";
+                              echo "<br />";  
+             }
+             
+    
                                 
         }
         
         
      ?>
           </form>
+     
+      
      </div>
 </div>
 

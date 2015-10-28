@@ -15,10 +15,19 @@
         <form   id="postagem"  action="banco/postagem.php"  method="post"  >
             <h4><center>Painel de Postagem </center></h4>
             <p>
+                <input name="nome_imagem" type="text" required="true" placeholder="Nome Da Imagem"/>
+            </p>
+            <p>
                 <input name="url" type="text" required="true" placeholder="URL"/>
             </p>
             <p>
                 <input  name="descricao" type="text" required="true" placeholder="Descrição"/>
+            </p>
+            <p>
+                Categoria: 
+                <input name="categoria" type="radio" value="video"/> Video
+                <input name="categoria" type="radio" value="imagem"/> Imagem
+                
             </p>
             <p>
                 <input id="btpostar"  class="btn btn-primary" type="submit" value="Postar" name="btmsubmit"/>
