@@ -36,8 +36,8 @@ echo "location.href='http://localhost/ifmadrugadao/index.php';";
 echo "</script>";
 }else{
 echo "<script type='text/javascript'>";
-echo "alert('Erro ao excluir a postagem. Tente novamente.');";
-echo "location.href='http://localhost/ifmadrugadao/index.php';";
+echo "alert('Postagem não encontrada verifique o nome digitado e Tente novamente !!!');";
+echo "location.href='http://localhost/ifmadrugadao/excluirPostagem.php';";
 echo "</script>";
 }
 

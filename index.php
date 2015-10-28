@@ -25,6 +25,7 @@
              
              if($valor->getCategoria()== 'video'){
                  
+                                echo '<br />';
                                 echo "<br>".$valor->getNome_postagem()."</b>";
                                 echo '<br />';
                                 echo '</h3>
@@ -34,22 +35,25 @@
                                 echo "<iframe  src='".retornarEmbed($valor->getUrl())."' frameborder='0' allowfullscreen></iframe>";
                                 echo "</center>";
                                 echo "</div>";
-                                echo "<br /";
+                                echo '<br /';
                                 echo "<br>".$valor->getDescricao()."</b>";
-                                echo "<br />";
-                                echo "<br />";
-                             
+                                echo '<br />';
+                                echo '<br />';
+                                echo '-----------------------------------------------------------------';
              }
              if($valor->getCategoria()== 'imagem'){
-                 
-                            echo "<br>".$valor->getNome_postagem()."</b>";
-                             echo '<br />';
+                             
+                             echo "<br>".$valor->getNome_postagem()."</b>";
+                             echo "<br />";
                               echo "<center>";
-                            echo " <img src=".retornarEmbed($valor->getUrl()).">";
+                             echo " <img src=".retornarEmbed($valor->getUrl()).">";
+                             echo '<br />';
+                          
                               echo "<br>".$valor->getDescricao()."</b>";
                               echo "<br />";
                               echo "</center>";
-                              echo "<br />";  
+                             
+                              echo '-----------------------------------------------------------------';
              }
              
     

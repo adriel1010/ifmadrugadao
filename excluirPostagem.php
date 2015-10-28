@@ -1,7 +1,19 @@
 <?php
+
+ session_start();
+   if(!isset($_SESSION['login'])&&!$_SESSION['login']==1){
+     $_SESSION['login'] = session_destroy();
+      header('Location:controlador.php'); 
+   }else{
+     
+   }
+
     require './visoes/topo.php';
     require './visoes/menu.php';
-    
+    include 'banco/buscarTodos.php';
+     
+    $buscarTodos = new Buscar();
+    $carregamento = $buscarTodos->buscTodos();
      
 ?>
 
@@ -23,6 +35,18 @@
                 <input id="btexclui"  class="btn btn-primary" type="submit" value="Excluir" name="btmsubmit"/>
                 <input id="btlimp" class="btn btn-primary" type="reset" value="Limpar"/>
             </p>
+            <p>
+                Postagens:
+            </p>
+            
+             <?php
+         foreach ($carregamento as $valor) {
+                               
+                                echo "<br>".$valor->getNome_postagem()."</b>";
+                                echo '<br />';
+                                echo '-----------------------------';
+             }
+             ?>
             
         </form>
     </div>
