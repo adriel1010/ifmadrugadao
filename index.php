@@ -17,9 +17,11 @@
 
 <div id="fundoconteudo" class="well well-small">
     <div id="conteudo" class="well well-small"  >
-        <form id="quadropostagem">
+        <div id="quadropostagem" style=" width: 60%; margin-left: 20%;
+    ">
             
             
+      
         <?php
          foreach ($carregamento as $valor) {
              
@@ -46,7 +48,7 @@
                              echo "<br>".$valor->getNome_postagem()."</b>";
                              echo "<br />";
                               echo "<center>";
-                             echo " <img src=".retornarEmbed($valor->getUrl()).">";
+                             echo ' <img src="'.retornarEmbed($valor->getUrl()).'">';
                              echo '<br />';
                           
                               echo "<br>".$valor->getDescricao()."</b>";
@@ -62,7 +64,9 @@
         
         
      ?>
-          </form>
+            
+         
+          </div>
      
       
      </div>

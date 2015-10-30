@@ -24,7 +24,7 @@ require './visoes/topo.php';
         <form   id="postagem"  action="banco/postagem.php"  method="post"  >
             <h4><center>Painel de Postagem </center></h4>
             <p>
-                <input name="nome_imagem" type="text" required="true" placeholder="Nome Da Imagem"/>
+                <input name="nome_imagem" type="text" required="true" placeholder="Titulo Da Imagem"/>
             </p>
             <p>
                 <input name="url" type="text" required="true" placeholder="URL"/>

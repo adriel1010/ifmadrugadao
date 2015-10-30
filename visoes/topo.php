@@ -16,7 +16,7 @@
         </script>
         <title>IFMadrugadão</title>
     </head>
-    <body>
+    <body style=" background-image: url(./recursos/img/fundo/fun.jpg);  background-repeat: repeat"  >
         <!--abre div fundo-->
         <div id="fundo" class="container-fluid">
             <div class="row">
