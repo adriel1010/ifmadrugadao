@@ -3,11 +3,11 @@
     require './visoes/menu.php';
     require './visoes/arte.php';
     include 'banco/buscarTodos.php';
-    
+ 
     $buscarTodos = new Buscar();
     $carregamento = $buscarTodos->buscTodos();
-    
-    
+  
+ 
   function retornarEmbed($url){
     $urlEmbed = str_replace("watch?v=", "embed/", $url);
     $urlEmbed = str_replace("&feature=youtu.be", "", $urlEmbed);
@@ -44,21 +44,23 @@
                                 echo '-----------------------------------------------------------------';
              }
              if($valor->getCategoria()== 'imagem'){
-                             
+                               echo "<center>";
                              echo "<br>".$valor->getNome_postagem()."</b>";
                              echo "<br />";
+                              echo "</center>";
                               echo "<center>";
                              echo ' <img src="'.retornarEmbed($valor->getUrl()).'">';
                              echo '<br />';
                           
                               echo "<br>".$valor->getDescricao()."</b>";
                               echo "<br />";
+                                echo '-----------------------------------------------------------------';
                               echo "</center>";
-                             
-                              echo '-----------------------------------------------------------------';
+                              
+                            
              }
-             
-    
+         
+                 
                                 
         }
         
