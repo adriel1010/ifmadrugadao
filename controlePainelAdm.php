@@ -1,10 +1,11 @@
 <?php
     session_start();
    if(!isset($_SESSION['login'])&&!$_SESSION['login']==1){
-     $_SESSION['login'] = session_destroy();
-      header('Location:controlador.php'); 
+    session_destroy();
+   header('Location:controlador.php');
+   
    }else{
-     
+ 
    }
    
     require './visoes/topo.php';

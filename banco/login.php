@@ -13,6 +13,7 @@ $pdoo= new Conexao();
 $pdo=$pdoo->conectar();
 
 // seleciona na tabela login o usuario e senha q correspondem 
+
 $buscarusuario=$pdo->prepare("select * from login where usuario=? and senha=?");
 // passagem de valores 
 
@@ -33,7 +34,8 @@ header('Location:../controlePainelAdm.php');
 }else{
 echo "<script type='text/javascript'>";
 echo "alert('Login ou senha incorretos. Tente novamente.');";
-echo "location.href='http://localhost/ifmadrugadao/controlador.php';";
+echo "location.href='http://www.ifmadrugadao.pe.hu/controlador.php';";
+//echo "location.href='http://localhost/ifmadrugadao/controlador.php';";
 echo "</script>";
 }
 

@@ -13,7 +13,7 @@
                     <ul class="nav navbar-nav navbar-left">
                         <li><a class="navbar-brand" href="index.php" style="color: white;">INÍCIO</a></li>
                         <li><a class="navbar-brand" href="#" style="color: white;">POSTS</a></li>
-                        <li><a class="navbar-brand" href="#" style="color: white;">VÍDEOS</a></li>
+                        <li><a class="navbar-brand" href="./videos.php" style="color: white;">VÍDEOS</a></li>
                         <li><a class="navbar-brand" href="#" style="color: white;">SOBRE</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right" >

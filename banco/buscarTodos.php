@@ -19,7 +19,7 @@ function Buscar(){
         
            try{
             
-            $sql = "SELECT * FROM postagem ";
+            $sql = "SELECT * FROM postagem ORDER by id DESC ";
             $result = $this->pdo->query($sql);
             $lista = $result->fetchAll(PDO::FETCH_ASSOC);
             $f_lista = array();

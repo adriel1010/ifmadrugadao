@@ -32,12 +32,12 @@ if($excluir->rowCount() >0){
     // starta a sessão e cria a sessão   login
 echo "<script type='text/javascript'>";
 echo "alert('Excluido com Sucesso !!!');";
-echo "location.href='http://localhost/ifmadrugadao/index.php';";
+echo "location.href='http://www.ifmadrugadao.pe.hu/index.php';";
 echo "</script>";
 }else{
 echo "<script type='text/javascript'>";
 echo "alert('Postagem não encontrada verifique o nome digitado e Tente novamente !!!');";
-echo "location.href='http://localhost/ifmadrugadao/excluirPostagem.php';";
+echo "location.href='http://www.ifmadrugadao.pe.hu/excluirPostagem.php';";
 echo "</script>";
 }
 

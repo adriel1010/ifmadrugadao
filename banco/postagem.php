@@ -1,8 +1,11 @@
 <?php
-$nomeImagem =$_POST['nome_imagem'];
+
+ $nomeImagem =$_POST['nome_imagem'];
 $url=$_POST['url'];
 $descricao=$_POST['descricao'];
 $categoria = $_POST['categoria'];
+
+
 
 include './conexao.php';
 
@@ -21,7 +24,7 @@ $postar->execute();
 if($postar->rowCount() >0){
 echo "<script type='text/javascript'>";
 echo "alert('Postagem realizada com sucesso !!!');";
-echo "location.href='http://localhost/ifmadrugadao/index.php';";
+echo "location.href='http://www.ifmadrugadao.pe.hu/index.php';";
 echo "</script>";
 }else{
 echo "<script type='text/javascript'>";
@@ -40,13 +43,15 @@ $postar->execute();
 if($postar->rowCount() >0){
 echo "<script type='text/javascript'>";
 echo "alert('Postagem realizada com sucesso !!!');";
-echo "location.href='http://localhost/ifmadrugadao/index.php';";
+echo "location.href='http://www.ifmadrugadao.pe.hu/index.php';";
 echo "</script>";
 }else{
 echo "<script type='text/javascript'>";
 echo "alert('Erro ao postar Por favor tente novamente !!!');";
 echo "</script>";
 }
+
 }
+
 
 ?>
